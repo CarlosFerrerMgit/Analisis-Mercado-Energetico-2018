@@ -8,8 +8,8 @@ Este proyecto analiza el comportamiento operativo y económico del sistema eléc
 ## 📁 Estructura del Proyecto
 ```text
 ├── data/
-│   ├── raw_data/                  # Registros horarios originales (Kaggle / ENTSO-E)
-│   └── clean_data/                # Matriz saneada con variables calculadas e imputaciones
+│   ├── energy_dataset.csv                  # Registros horarios originales (Kaggle)
+│   └── weather_dataset.csv                 # Registros de temperatura originales (Kaggle)
 ├── docs/
 │   └── INFORME_TECNICO_DATAPROJECT.pdf  # Informe analítico completo de negocio
 ├── scripts/
@@ -22,8 +22,8 @@ Este proyecto analiza el comportamiento operativo y económico del sistema eléc
 | Indicador Clave (KPI) | Valor Anual 2018 | Referencia | Desviación | Conclusión Analítica |
 | :--- | :---: | :---: | :---: | :--- |
 | **Precio Final Liquidado** | **63,44 €/MWh** | 57,29 €/MWh *(Diario)* | `+6,15 €/MWh` | Sobrecoste por servicios de ajuste y restricciones técnicas de red |
-| **Demanda Peninsular** | **254,54 TW** | 254,56 TW *(Prevista)* | `-0,01%` | Ajuste de balance volumétrico anual prácticamente exacto. |
-| **Pico Máximo** | **40.693 MWh** | 29.057 MWh *(Media)* | `+40,04%` | Máximo anual (8 de febrero) por ola de frío. |
+| **Demanda Peninsular** | **254,54 TWh** | 254,56 TWh *(Prevista)* | `-0,01%` | Ajuste de balance volumétrico anual prácticamente exacto. |
+| **Pico Máximo** | **40.693 MW** | 29.057 MW *(Media)* | `+40,04%` | Máximo anual (8 de febrero) por ola de frío. |
 | **Cuota Renovable** | **38,10%** | 40,00% *(Objetivo UE)* | `-1,90 p.p.` | Liderada por la aportación eólica e hidroeléctrica. |
 | **Error Previsión (MAPE)** | **0,93%** | 2,00% *(Estándar red)* | `-1,07 p.p.` | Gran desempeño predictivo del algoritmo de balance de REE. |
 
