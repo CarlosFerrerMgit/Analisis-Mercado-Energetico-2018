@@ -35,6 +35,10 @@ https://docs.google.com/spreadsheets/d/1XPGJvredC7gG07FQ_lJ4fOAoWgt4E00nPMi1QJpx
 
 También cuenta con unas pestañas destinadas a la explicación de cada una de las variables (glosarios)
 
+## Captura del Dashboard
+<img width="1614" height="777" alt="image" src="https://github.com/user-attachments/assets/6dce45f2-2415-4286-82e5-02254c37d76d" />
+
+
 ## 🚀 Próximos Pasos e Ideas de ExpansiónModelo Predictivo de Precios:
 
  Implementar modelos de Machine Learning para pronosticar el precio marginal horario con 24 horas de antelación.
