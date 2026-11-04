@@ -11,10 +11,10 @@ Este proyecto analiza el comportamiento operativo y económico del sistema eléc
 │   ├── energy_dataset.csv                  # Registros horarios originales (Kaggle)
 │   └── weather_dataset.csv                 # Registros de temperatura originales (Kaggle)
 ├── docs/
-│   └── INFORME_TECNICO_DATAPROJECT.pdf  # Informe analítico completo de negocio
+│   └── INFORME_TECNICO_DATAPROJECT.pdf     # Informe analítico completo de negocio
 ├── scripts/
-│   └── macros.js              # Macro en Google Apps Script para exportar el dashboard
-└── README.md                      # Documentación principal del repositorio
+│   └── macros.js                           # Macro en Google Apps Script para exportar el dashboard
+└── README.md                               # Documentación principal del repositorio
 ```
 
 ## 📊 Resultados y Conclusiones Breves
